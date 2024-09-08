@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calendar for UniPG SOL
 // @namespace    http://tampermonkey.net/
-// @version      5.1
+// @version      1.1
 // @description  Add a button to create an .ics event for each exam with multiple calendar sync options
 // @author       LukeGotBored
 // @match        https://unipg.esse3.cineca.it/auth/studente/Appelli/BachecaPrenotazioni.do

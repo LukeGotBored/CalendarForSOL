@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Calendar for UniPG SOL
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      5.1
 // @description  Add a button to create an .ics event for each exam with multiple calendar sync options
 // @author       LukeGotBored
 // @match        https://unipg.esse3.cineca.it/auth/studente/Appelli/BachecaPrenotazioni.do
@@ -100,7 +100,7 @@
             cursor: isDisabled ? 'not-allowed' : 'pointer',
             transition: 'background-color 0.3s ease',
             position: 'relative',
-            border: 'solid 1px #00305c'
+            border: isDisabled ? '1px solid rgb(175 175 175)' : 'solid 1px #00305c',
         });
         button.setAttribute('aria-label', t('addToCalendar'));
         button.setAttribute('title', t('addToCalendar'));
